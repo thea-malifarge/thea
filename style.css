@@ -1,0 +1,77 @@
+body{
+	background:#f8b195;
+	color: rgb(30,30,30);
+	font-family: 'Zilla Slab', serif;
+	font font-weight: 300
+}
+	
+	
+
+} 
+
+h1{
+	color: #1b262c;
+	font-size: 60px;
+	font-family: 'Oswald', sans-serif;
+}
+h2,h3{
+	color:#0f4c75 ;
+	font-family:Zilla Slab, serif;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size: 40px;
+}
+a {
+	text-decoration: none;
+	color: #697c37;
+	font-family: 'Zilla Slab', serif;
+}
+a:hover{
+	color: black;
+}
+
+/*Custom design with class*/
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle{
+	border-radius: 50px;
+}
+
+.btn-blue{
+	background-color:#697c37;
+	color: white;
+	padding: 15px 20px;
+	border-radius:4px;
+}
+.btn-blue: hover{
+	background-color:black;
+	color: white
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 60px;
+	color: yellow;
+}
+
+#introduction p{
+	margin-bottom: 40px
+
+}
